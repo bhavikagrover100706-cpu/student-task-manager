@@ -1,16 +1,107 @@
-# React + Vite
+# Student Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack task management application built using React, Express.js, MongoDB Atlas, and Mongoose.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Create tasks
+* View tasks
+* Update task status
+* Delete tasks
+* Persistent storage using MongoDB Atlas
+* REST API integration between frontend and backend
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB Atlas
+* Mongoose
+
+## Project Structure
+
+student-task-manager/
+
+├── src/                 # React frontend
+
+├── backend/
+
+│   ├── models/
+
+│   └── server.js
+
+├── package.json
+
+└── README.md
+
+## Installation
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+## API Endpoints
+
+### Get all tasks
+
+```http
+GET /tasks
+```
+
+### Create task
+
+```http
+POST /tasks
+```
+
+### Update task
+
+```http
+PUT /tasks/:id
+```
+
+### Delete task
+
+```http
+DELETE /tasks/:id
+```
+
+## Learning Outcomes
+
+This project helped me learn:
+
+* React state management using useState
+* React lifecycle using useEffect
+* REST APIs
+* Express.js routing
+* MongoDB Atlas integration
+* Mongoose models and schemas
+* Full-stack CRUD application development
+
+## Author
+
+Bhavika Grover
+MEng Computer Science
+University of Birmingham
