@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#center > div {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.task-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #333;
+  border-radius: 8px;
+  background: #f7f4f6;
+}
